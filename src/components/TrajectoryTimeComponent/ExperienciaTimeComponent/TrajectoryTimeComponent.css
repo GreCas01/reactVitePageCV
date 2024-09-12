@@ -1,0 +1,209 @@
+#timeline-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+  }
+  
+  .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 85%;
+    height: auto;
+    /* max-width: 800px; */
+    margin: 0 auto;
+  }
+  
+  #timeline-experiencia {
+    display: none;
+  }
+  
+  .evento-info {
+    background: #1f1f1f;
+    box-shadow: 5px 5px 10px #0f0f0f, -5px -5px 10px #1f1f1f52;
+    padding: 1.75rem;
+    overflow-wrap: break-word !important;
+    border-radius: 6px;
+    margin: 20px;
+  }
+  
+  .evento-info h5 {
+    color: #4DB2FF;
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .evento-info p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .verDetalles {
+    color: #4DB2FF;
+    font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 0;
+  }
+  
+  .verDetalles:hover {
+    color: #9fd5ff;
+    text-decoration: none;
+  }
+  
+  .evento-info ul {
+    color: #fff;
+    margin-left: 28px;
+  }
+  
+  /* Animación Expandir detalles de Experiencia Laboral  */
+  
+  .evento-info ul.details {
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+  
+  .evento-info ul.details.expandido {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
+  .evento-info ul.details.expandido li {
+    opacity: 1;
+  }
+  
+  .evento-info ul.details.expandido li:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+  
+  .evento-info ul.details.expandido li:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+  
+  .evento-info ul.details.expandido li:nth-child(3) {
+    transition-delay: 0.3s;
+  }
+  
+  .evento-info ul.details.expandido li:nth-child(4) {
+    transition-delay: 0.4s;
+  }
+  
+  .evento-info li {
+    margin: 2px 0px;
+  }
+  
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  
+  .evento-linea {
+    position: relative;
+    background-image: linear-gradient(45deg, #0039a6, #1877F2, #0076CE, #1877F2, #0039a6);
+    width: 5px;
+    height: 100%;
+  }
+  
+  .evento-linea:nth-of-type(2) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .evento-linea:nth-last-child(2) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .main-middle {
+    opacity: 0;
+  }
+  
+  .evento-circulo {
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387); */
+    background-color: aliceblue;
+    padding: 5px;
+    border: 4px #1877F2 solid;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-family: "Reddit Mono", monospace;
+    word-spacing: 5px;
+    font-size: 1.05rem;
+  }
+  
+  .btn {
+    width: 150px;
+    border: 3px solid #0039a6;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+  }
+  
+  input[type="radio"].toggle {
+    display: none;
+  }
+  
+  input[type="radio"].toggle+label {
+    cursor: pointer;
+    min-width: 60px;
+    font-weight: 600;
+    color: aliceblue;
+  }
+  
+  input[type="radio"].toggle+label:after {
+    background: #0039a6;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+    width: 100%;
+    z-index: -1;
+  }
+  
+  input[type="radio"].toggle.toggle-left+label {
+    border-right: 0;
+  }
+  
+  input[type="radio"].toggle.toggle-left+label:after {
+    left: 100%;
+  }
+  
+  input[type="radio"].toggle.toggle-right+label {
+    margin-left: -5px;
+  }
+  
+  input[type="radio"].toggle.toggle-right+label:after {
+    left: -100%;
+  }
+  
+  input[type="radio"].toggle:checked+label {
+    cursor: default;
+    text-decoration: underline;
+    transition: color 200ms;
+  }
+  
+  input[type="radio"].toggle:checked+label:after {
+    left: 0;
+  }
+  

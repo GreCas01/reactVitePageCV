@@ -1,0 +1,51 @@
+#section2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mainSobreMi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.imgContainer {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border: 10px inset #125dbe;
+}
+
+.imgContainer img {
+    width: 160%;
+    height: auto;
+    transform: translateX(-14%);
+    padding-left: 16%;
+}
+
+.descripcion {
+    width: 76%;
+    background: #1f1f1f;
+    box-shadow: 5px 5px 10px #0f0f0f, -5px -5px 10px #1f1f1f52;
+    padding: 1.75rem;
+    overflow-wrap: break-word !important;
+    border-radius: 6px;
+
+}
+
+.sobreMi {
+    text-align: justify;
+    color: aliceblue;
+    font-size: 1.1em;
+ 
+}
+
+.techIcons {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

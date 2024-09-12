@@ -1,0 +1,48 @@
+/* src/components/SkillsSectionComponent/SkillsSectionComponent.css */
+
+.section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-column,
+  .skills-column {
+    width: 100%;
+  }
+  
+  .title-skills {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .frontend, 
+  .backend, 
+  .database {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .skill {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .skill-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  

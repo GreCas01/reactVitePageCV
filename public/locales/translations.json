@@ -1,0 +1,187 @@
+{
+  "en-GB": {
+    "home_header": "Home",
+    "about_me_header": "About Me",
+    "skills_header": "Skills",
+    "trajectory_header": "Trajectory",
+    "contact_header": "Contact Me",
+    "name_person": "Gregorio Castillo Vega",
+    "download_cv_Poratada": "Download CV",
+    "text_about_me_top1": "My previous roles, combined with my two higher degrees in Web and Multiplatform Development, have built a solid foundation of practical knowledge in management and administration, backed by a basic theoretical understanding of various technologies. This combination gives me the ability to adapt to different work environments with ease.",
+    "text_about_me_top2": "My journey as a Frontend Developer has not only given me a deep understanding of React and JavaScript, but it has also fueled my motivation to keep learning and explore new technologies.",
+    "text_about_me_top3": "In addition to my desire to learn and gain experience, I'm driven to remain open to new opportunities in the future and not limit myself from learning something new.",
+    "text_about_me_top4": "On a personal level, my interest in eSports, reading, and lately, board games, occupies my time outside of work. These activities keep me balanced and motivated.",
+    "text_about_me_top5": "I am excited to continue growing in frontend development and collaborate on exciting projects that challenge my skills and foster my continued evolution.",
+    "titulo_trayectiria": "My Journey",
+    "trayecotoria_formacion": "Education",
+    "experiencia_trayectoria": "Experience",
+    "detalles_trayectoria": "View Details",
+    "ocultarDetalles_trayectoria": "Hide Details",
+    "formacionItems": [
+      {
+        "title": "Higher Degree in Web Application Development",
+        "date": "09/2020 - 06/2023",
+        "details": [
+          "Jesuïtes El Clot School – Barcelona"
+        ]
+      },
+      {
+        "title": "Higher Degree in Network Systems Administration",
+        "date": "09/2020 - 03/2023",
+        "details": [
+          "Jesuïtes El Clot School – Barcelona"
+        ]
+      },
+      {
+        "title": "Intermediate Degree in Microcomputer Systems and Networks",
+        "date": "09/2018 - 06/2020",
+        "details": [
+          "Jesuïtes El Clot School – Barcelona"
+        ]
+      }
+    ],
+    "experienciaItems": [
+      {
+        "title": "Full Stack Developer",
+        "date": "03/2023 - 06/2023",
+        "details": [
+          "GIROHOSTING GROUP – Girona",
+          "Implementation of design concepts in web applications.",
+          "Data management and manipulation in MongoDB.",
+          "Implementation of responsive design for cross-browser compatibility.",
+          "Teamwork to facilitate goal achievement."
+        ]
+      },
+      {
+        "title": "IT Technician",
+        "date": "11/2022 - 03/2023",
+        "details": [
+          "FSM Fundació Sanitaria Mollet – Mollet del Vallès",
+          "Installation, configuration, and maintenance of computer systems.",
+          "Supervision and assurance of technical system performance.",
+          "Technical support to internal users for issue resolution."
+        ]
+      },
+      {
+        "title": "IT Intern",
+        "date": "06/2021 - 10/2021",
+        "details": [
+          "RCM Software, S.L – Mollet del Vallès"
+        ]
+      }
+    ]
+  },
+  "es-ES": {
+    "home_header": "Inicio",
+    "about_me_header": "Sobre mí",
+    "skills_header": "Habilidades",
+    "trajectory_header": "Trayectoria",
+    "contact_header": "Contáctame",
+    "name_person": "Gregorio Castillo Vega",
+    "download_cv_Poratada": "Descargar CV",
+    "text_about_me_top1": "Mis roles anteriores, sumados a mis dos grados superiores en Desarrollo Web y Multiplataforma, han forjado una base sólida de conocimientos prácticos en gestión y administración, respaldada por un entendimiento teórico básico de diversas tecnologías. Esta combinación me da la capacidad de adaptarme a distintos entornos laborales con facilidad.",
+    "text_about_me_top2": "Mi trayectoria como Desarrollador Frontend no solo me ha brindado un profundo entendimiento de React y JavaScript, sino que también ha alimentado mi motivación para seguir aprendiendo y explorar nuevas tecnologías.",
+    "text_about_me_top3": "Ademas de mis ganas de aprender y de ganar experiencia me motivan a abrirme a nuevas posibilidades a futuro y no cerrarme en banda a aprender algo nuevo.",
+    "text_about_me_top4": "En el ámbito personal, mi interés por los eSports, la lectura y ultimamente Juegos de Mesa ocupa mi tiempo fuera del trabajo. Estas actividades me mantienen equilibrado y motivado.",
+    "text_about_me_top5": "Estoy entusiasmado por continuar mi crecimiento en el desarrollo frontend y colaborar en proyectos emocionantes que desafíen mis habilidades y fomenten mi continua evolución.",
+    "titulo_trayectiria": "Mi Trayectoria",
+    "trayecotoria_formacion": "Formacion",
+    "experiencia_trayectoria": "Experiencia",
+    "detalles_trayectoria": "Ver detalles",
+    "ocultarDetalles_trayectoria": "Ocultar Detalles",
+    "formacionItems": [
+      {
+        "title": "Grado superior de desarrollo de aplicaciones web",
+        "date": "09/2020 - 06/2023",
+        "details": [
+          "Escuela Jesuïtes El Clot – Barcelona"
+        ]
+      }
+    ],
+    "experienciaItems": [
+      {
+        "title": "Desarrollador full stack",
+        "date": "03/2023 - 06/2023",
+        "details": [
+          "GIROHOSTING GROUP – Girona",
+          "Implementación de conceptos de diseño en la aplicación web.",
+          "Gestión y manipulación de datos en MongoDB.",
+          "Implementación de diseño responsivo para garantizar compatibilidad.",
+          "Trabajo en equipo para facilitar el cumplimiento de objetivos."
+        ]
+      }
+    ]
+  },
+  "es-CA": {
+    "home_header": "Inici",
+    "about_me_header": "Sobre mi",
+    "skills_header": "Habilitats",
+    "trajectory_header": "Trajectòria",
+    "contact_header": "Contacta'm",
+    "name_person": "Gregorio Castillo Vega",
+    "download_cv_Poratada": "Descarregar CV",
+    "text_about_me_top1": "",
+    "text_about_me_top2": "",
+    "text_about_me_top3": "",
+    "text_about_me_top4": "",
+    "text_about_me_top5": "",
+    "titulo_trayectoria": "La Meva Trajectòria",
+    "trayecotoria_formacion": "Formació",
+    "experiencia_trayectoria": "Experiència",
+    "detalles_trayectoria": "Veure Detalls",
+    "ocultarDetalles_trayectoria": "Amagar Detalls",
+    "formacionItems": [
+      {
+        "title": "Cicle Superior de Desenvolupament d'Aplicacions Web",
+        "date": "09/2020 - 06/2023",
+        "details": [
+          "Escola Jesuïtes El Clot – Barcelona"
+        ]
+      },
+      {
+        "title": "Cicle Superior d'Administració de Sistemes Informàtics en Xarxa",
+        "date": "09/2020 - 03/2023",
+        "details": [
+          "Escola Jesuïtes El Clot – Barcelona"
+        ]
+      },
+      {
+        "title": "Cicle Mitjà de Sistemes Microinformàtics i Xarxes",
+        "date": "09/2018 - 06/2020",
+        "details": [
+          "Escola Jesuïtes El Clot – Barcelona"
+        ]
+      }
+    ],
+    "experienciaItems": [
+      {
+        "title": "Desenvolupador Full Stack",
+        "date": "03/2023 - 06/2023",
+        "details": [
+          "GIROHOSTING GROUP – Girona",
+          "Implementació de conceptes de disseny en aplicacions web.",
+          "Gestió i manipulació de dades en MongoDB.",
+          "Implementació de disseny responsiu per garantir compatibilitat.",
+          "Treball en equip per facilitar el compliment d'objectius."
+        ]
+      },
+      {
+        "title": "Tècnic Informàtic",
+        "date": "11/2022 - 03/2023",
+        "details": [
+          "FSM Fundació Sanitaria Mollet – Mollet del Vallès",
+          "Instal·lació, configuració i manteniment d'equips informàtics.",
+          "Supervisió i assegurament del rendiment tècnic dels sistemes.",
+          "Suport tècnic als usuaris interns per resoldre incidències."
+        ]
+      },
+      {
+        "title": "Becari TI",
+        "date": "06/2021 - 10/2021",
+        "details": [
+          "RCM Software, S.L – Mollet del Vallès"
+        ]
+      }
+    ]
+  }
+}
